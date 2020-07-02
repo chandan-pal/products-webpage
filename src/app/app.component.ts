@@ -22,7 +22,7 @@ export class AppComponent {
 
   @HostListener('window:scroll', ['$event'])
   toggleNavbarScroll($event): void {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
       document.querySelector("#mainNav").classList.add('navbar-scrolled');
     } else {
       document.querySelector("#mainNav").classList.remove('navbar-scrolled');

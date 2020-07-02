@@ -1,6 +1,6 @@
 header {
   width: 100%;
-  padding: 15px 25px;
+  /* padding: 15px 25px; */
   position: fixed;
   top: 0;
   left: 0;
@@ -15,11 +15,12 @@ header {
 }
 #mainNav.navbar-scrolled {
   /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); */
-  background-color: rgba(24, 22, 22, 0.45);
-  padding: 10px 50px;
+  background-color: rgba(24, 22, 22, 0.6);
+  padding: 0 50px;
 }
 #mainNav .navbar-brand {
-  background-color: rgba(95, 105, 190, 0.5);
+  /* background-color: rgba(95, 105, 190, 0.5); */
+  background-color: white;
   height: 60px;
   width: 90px;
 }
