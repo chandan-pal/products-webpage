@@ -2,17 +2,20 @@ section {
   width : 100%;
   height: 100vh;
   /* background-image: url('/assets/JBC.webp'); */
-  background: linear-gradient(to bottom, #888888cc 0%, #888888cc 100%), url('/assets/JBC.webp');
+  background: linear-gradient(to bottom, #888888cc 0%, #888888cc 100%), url('../../assets/JBC.webp');
+  background-size: cover;
   padding: 4rem 1rem;
 }
 .contactlist {
   /* padding: 70px; */
   display: flex;
+  flex-wrap: wrap;
   color: white;
+  justify-content: space-between;
 }
 
 .contactitem {
-  padding: 3rem;
+  padding: 1rem 3rem;
   list-style: none;
 }
 .contactitem a {
@@ -27,6 +30,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  width: 22rem;
+  width: 20rem;
+  overflow: auto;
   /* padding: 10px; */
 }
